@@ -15,6 +15,6 @@ def flow_converter(flow, unit):
         "lph": 0.00440287,
         "lpm": 0.26417287472922,
         "lps": 15.850372483753,
-        "m3hr": 4.4029
+        "m3hr": 4.402881245487
     }
     return flow * to_gpm[unit]
